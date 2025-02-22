@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(./astro.jpg);
+    background-size: 100%;
+}
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #333;
+}
+p {
+    color: #666;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+input {
+    background: #f9f9f9;
+}
+button {
+    background: #ff7e5f;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background: #e76b50;
+}
+#result {
+    background-color: rgba(29, 125, 241, 0.9);;
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    max-width: 280px;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    border-radius: 10px;
+}
